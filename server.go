@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gqlgen_example/graph"
-	"gqlgen_example/graph/generated"
+	"github.com/dingzhongfa/gqlgen_example/graph"
+	"github.com/dingzhongfa/gqlgen_example/graph/generated"
 	"log"
 	"net/http"
 	"os"

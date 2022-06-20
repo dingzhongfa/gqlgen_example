@@ -6,8 +6,8 @@ package graph
 import (
 	"context"
 	"fmt"
-	"gqlgen_example/graph/generated"
-	"gqlgen_example/graph/model"
+	"github.com/dingzhongfa/gqlgen_example/graph/generated"
+	"github.com/dingzhongfa/gqlgen_example/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {

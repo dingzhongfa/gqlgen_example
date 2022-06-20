@@ -7,7 +7,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"gqlgen_example/graph/model"
+	"github.com/dingzhongfa/gqlgen_example/graph/model"
 	"strconv"
 	"sync"
 	"sync/atomic"
